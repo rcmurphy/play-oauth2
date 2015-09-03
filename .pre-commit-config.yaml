@@ -1,0 +1,13 @@
+-   repo: git://github.com/pre-commit/pre-commit-hooks
+    sha: ff65d01841ad012d0a9aa1dc451fc4539d8b7baf
+    hooks:
+    -   id: trailing-whitespace
+        files: \.(scala|html|erb|slim|haml|ejs|jade|js|coffee|json|rb|md|py|css|scss|less|sh|tmpl|txt|yaml|yml|pp)$
+    -   id: end-of-file-fixer
+        files: \.(scala|html|erb|slim|haml|ejs|jade|js|coffee|json|rb|md|py|css|scss|less|sh|tmpl|txt|yaml|yml|pp)$
+    -   id: check-yaml
+    -   id: check-json
+-   repo: git@github.com:rcmurphy/pre-commit-hooks.git
+    sha: 80b99ea45cfd80c1dba434afc3be98f80039be1d
+    hooks:
+    -   id: scalariform
